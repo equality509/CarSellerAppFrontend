@@ -1,3 +1,3 @@
-const url = "https://djangoapi-vtha.onrender.com/todos/"
+const url = "http://localhost:8000/todos/"
 
 export default url

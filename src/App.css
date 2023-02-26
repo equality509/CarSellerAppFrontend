@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: url('/Users/eric/Desktop/Online Class/project4-2/CarSellerAppFrontend/public/images/3pPpqEXw-LLbjx3XWo2-(edit).jpeg') center center/cover no-repeat;
+
+  
 }
 
 .App-logo {
@@ -35,4 +38,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-make {
+  width: 50%;
+}
+
+.frm{
+  width:50%;
+  padding:10px;
+  color: white;
+}
+
+.frm ::placeholder{
+ 
+  color: white;
+}
+
+.car{
+  width:50%
+}
+
+.flx{
+  display:flex;
+  background: url('/Users/eric/Desktop/Online Class/project4-2/CarSellerAppFrontend/public/images/3pPpqEXw-LLbjx3XWo2-(edit).jpeg') center center/cover no-repeat;
+}
+
+.form-letters{
+  color: white;
+  text-align: left
+}
+
+.title {
+  color:white
+}
+
+.background{
+  background-color: rgba(255, 228, 196, 0.4);
+  padding-left: 20px;
+}
+
+.show-letters{
+  color:white;
+  background-color: rgba(255, 228, 196, 0.4);
+  width: 50%;
+  text-align: center;
 }

@@ -7,10 +7,14 @@ export async function CreateAction({ request }) {
 
   // construct new todo
   const newTodo = {
-    subject: formData.get("subject"),
-    details: formData.get("details"),
+    make: formData.get("make"),
+    model: formData.get("model"),
+    year: formData.get("year"),
+    color: formData.get("color"),
+    price: formData.get("price"),
+    image: formData.get("venue_image")
   };
-
+console.log(newTodo)
   // request to create route in backend
   await fetch(url, {
     method: "post",
@@ -30,8 +34,11 @@ export async function UpdateAction({ request, params }) {
   
     // construct new todo
     const newTodo = {
-      subject: formData.get("subject"),
-      details: formData.get("details"),
+      make: formData.get("make"),
+      model: formData.get("model"),
+      year: formData.get("year"),
+      color: formData.get("color"),
+      price: formData.get("price"),
     };
   
     // request to update route in backend
