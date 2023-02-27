@@ -12,7 +12,6 @@ export async function CreateAction({ request }) {
     year: formData.get("year"),
     color: formData.get("color"),
     price: formData.get("price"),
-    image: formData.get("venue_image")
   };
 console.log(newTodo)
   // request to create route in backend

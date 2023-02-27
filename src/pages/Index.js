@@ -16,8 +16,6 @@ const Index = (props) => {
           <input type="text" name="year" placeholder="year"/>
           <input type="text" name="color" placeholder="color"/>
           <input type="text" name="price" placeholder="price"/>
-          <input type="url" name="image" placeholder="image"/>
-
           <button>Create New Car</button>
       </Form>
   </div>
