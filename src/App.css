@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: url('/Users/eric/Desktop/Online Class/project4-2/CarSellerAppFrontend/public/images/3pPpqEXw-LLbjx3XWo2-(edit).jpeg') center center/cover no-repeat;
+  background: url('https://inv.assets.sincrod.com/RTT/Chevrolet/2023/5806553/default/ext_G1W_deg01.jpg') center center/cover no-repeat;
 
   
 }
@@ -61,7 +61,7 @@
 
 .flx{
   display:flex;
-  background: url('/Users/eric/Desktop/Online Class/project4-2/CarSellerAppFrontend/public/images/3pPpqEXw-LLbjx3XWo2-(edit).jpeg') center center/cover no-repeat;
+  background: url('https://inv.assets.sincrod.com/RTT/Chevrolet/2023/5806553/default/ext_G1W_deg01.jpg') center center/cover no-repeat;
 }
 
 .form-letters{
