@@ -10,8 +10,8 @@ const Index = (props) => {
    <div className="flx">
   <div style={{textAlign: "center"}} className="frm">
      
-      <Form action="/create" method="post" encType="multipart/form-data" className="frm">
-          <input type="text" name="make" placeholder="make" className="frm"/>
+      <Form action="/create" method="post" >
+          <input type="text" name="make" placeholder="make" />
           <input type="text" name="model" placeholder="model"/>
           <input type="text" name="year" placeholder="year"/>
           <input type="text" name="color" placeholder="color"/>
