@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  background: url('/Users/eric/Desktop/Online Class/project4-2/CarSellerAppFrontend/public/images/3pPpqEXw-LLbjx3XWo2-(edit).jpeg') center center/cover no-repeat;
-
   
 }
 
@@ -61,7 +59,6 @@
 
 .flx{
   display:flex;
-  background: url('/Users/eric/Desktop/Online Class/project4-2/CarSellerAppFrontend/public/images/3pPpqEXw-LLbjx3XWo2-(edit).jpeg') center center/cover no-repeat;
 }
 
 .form-letters{
